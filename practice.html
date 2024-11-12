@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #logo{
+
+            position: absolute;
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 20x0px;
+            height: 200px;
+        }
+        form{
+            border: 3px solid black;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        h1,p{
+            text-align: center;
+        }
+       #fname,#mname,#lname{
+        padding: 10px;
+        width: 29.5%;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: aquamarine;
+        color: red;
+        font-weight: bold;
+        font-size: large;
+       }
+       #mname,#lname{
+        margin-left: 2%;
+    
+       }
+       #address{
+        padding: 10px;
+        width: 98%;
+        margin-bottom: 15px;
+        border: 1px solid black;
+       }
+       #city,#sp,#Country,#number{
+        padding: 10px;
+        width: 48%;
+        margin-bottom: 15px;
+        border: 1px solid black;
+       }
+
+       fieldset{
+        border: 2px solid black;
+        color: red;
+       }
+
+       .sinfo{
+        margin-top: 10%;
+       }
+    </style>
+</head>
+<body>
+    <form action="">
+        <img src="./images/simplelogo.png" alt="" id="logo">
+        <h1>Registration form</h1>
+        <p>Fill out the form to apply for the training courses. You can consider your application 
+            accepted after you receive a conformation email.
+        </p>
+        <h2 class="sinfo">Student Information</h2>
+        <input type="text" name="firstname" id="fname" placeholder="First Name">
+        <input type="text" name="middlename" id="mname" placeholder="Middle Name">
+        <input type="text" name="lastname" id="lname" placeholder="Last Name">
+
+        <h2>Address</h2>
+        <input type="text" name="address" id="address" placeholder="Street Adress">
+        <input type="text" name="city" id="city" placeholder="City">
+        <input type="text" name="sp" id="sp" placeholder="State/ Province"> <br>
+        <input type="text" name="Country" id="Country" placeholder="Country">
+        <input type="number" name="number" id="number" placeholder="Zip Code">
+
+        <fieldset>
+            <legend>For Office Use Only</legend>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            
+            <address>
+                <textarea name="address" id="address"></textarea>
+            </address>
+
+            <input type="tel" name="phone " id="phone" placeholder="Enter Your Phone number">
+        </fieldset>
+    </form>
+</body>
+</html>
