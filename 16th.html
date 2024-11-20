@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav dropdownlist and opicity</title>
+    <style>
+        .nav{
+            list-style-type:none;
+            display: flex;
+            background-color: #2f2f2f;
+        }
+        .nav li{
+            margin: 15px;
+            font-size: 22px;
+            color: white;
+        }
+        .nav li:hover{
+            color: blue;
+            transition-duration: 1s;
+        }
+    
+        .dropdown li{
+            color: black;
+        }
+        .show:hover .dropdown >li{
+            list-style-type: none;
+            background-color: antiquewhite;
+            display: block;
+            /* z-index: 2; */
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>Home</li>
+        <li>about</li>
+        <li>Contact</li>
+        <li class="show">Service
+            <ul class="dropdown">
+                <li>Web-Development</li>
+                <li>Grapich-Design</li>
+                <li>App-Development</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

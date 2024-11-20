@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .logo{
+            position: absolute;
+            top: 3%;
+            width: 150px;
+            height: 150px;
+            left: 2%;
+            
+        }
+
+         .div1{
+            display: flex;
+         }
+        .div2{
+            background-color: rgb(89, 89, 238);
+            height: 50px;
+            width: 30%;
+            clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+            margin-right: -35px;
+        
+        }
+        .div3{
+            background-color: darkblue;
+            height: 50px;
+            width: 70%;
+            clip-path: polygon(8.5% 0%, 100% 0%, 100% 100%, 0 100%);        
+        }
+        .div4{
+            background-color: rgb(89, 89, 238);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+            height: 50px;
+            width: 55%;
+            margin-left: 40%;
+            margin-top: 5px;
+        
+        }
+        .div5{
+            background-color: darkblue;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+            height: 50px;
+            width: 49%;
+            margin-left: 46%;
+            margin-top: 5px;
+        }
+        .heading{
+            color: darkblue;
+            font-size: 50px ;
+            
+        }
+        .container{
+            display: flex;
+            margin-left: 40%;
+            margin-top: -10%;
+            
+        }
+        .in ,.id{
+            border-right: 2px solid black;
+            padding-left: 20px;
+        }
+
+        .aside{
+            margin-top: 3%;
+            background-color: #dad6d6;
+            width: 30%;
+            height: 550px;
+            padding-left: 8px;
+            
+        }
+
+        .mainaside{
+            display: flex;
+        }
+        .top{
+            display: flex;
+            margin-top: 3%;
+            margin-left: 1%;
+            padding-left: 3px;
+            padding-right: 70px;
+            background-color: darkblue;
+            color: white;
+            height: 60px;
+            
+        }
+        .sectop ,.thirdtop, .forthtop{
+            display: flex;
+            margin-top: 3%;
+            margin-left: 1%;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: black;
+            color: white;
+            height: 60px;
+        }
+        .fifthdiv{
+            margin-left: 240px;
+            margin-top: -490px;
+        }
+
+        .num{
+            margin-top: 10%;
+            margin-left: -53%;
+            text-align: center;
+            width: 60%;
+            background-color:#dad6d6;
+            clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+            position: relative;
+        }
+        .num p{
+            font-size: 12px;
+
+        }
+     
+        .telimg{
+            position: absolute;
+            margin-left: -29%;
+            margin-top: -5%;
+        
+        }
+        .weblink{
+            margin-top: -11.3%;
+            margin-left: -1.5%;
+            text-align: center;
+            width: 60%;
+            background-color:#ccc9c9;
+            clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+            position: relative;
+        }
+        .weblink p{
+            font-size: 12px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2"></div>
+        <div class="div3"></div> 
+    </div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <img class="logo" src="/images/onicbyte.png" alt="">
+    <h1 class="heading">INVOICE</h1>
+    <div class="container">
+        <pre class="in"><b>Invoice Date</b>          
+19-11-2024
+        </pre>
+        <pre class="id"><b>Issue Date</b>
+25-12-2024      
+         </pre>
+        <pre style="padding-left: 20px;"><b>Invoice No</b>
+2003
+        </pre>
+    </div>
+
+    <div class="mainaside">
+    <div class="aside">
+        <p style="border-bottom: 3px solid black; padding-bottom: 5px; width: 150px; padding-top: 20px;">Invoice To</p>
+        <h4 style="margin-top: -1%; margin-bottom: 40%;">KPCSW website</h4>
+        <h3 style="border-bottom: 3px solid black; padding-bottom: 5px; width: 150px;">Payment Method</h3>
+        <h3>United bank limited</h3>
+        <p>Name:Muhammad Ibrar</p>
+        <p style="margin-top: -10px;">Acount No: 0034567875534</p>
+        <p style="margin-top: -10px;">BAN :</p>
+        <pre style="margin-top: -10px;">PK74UNIL987634567987</pre>
+        <h3>Easypaisa</h3>
+        <pre>Muhammad Ibrar</pre>
+        <pre style="margin-top: -10px;">03353681394</pre>
+        <h3 style="border-top: 2px solid black; width: 150px; margin-top: 30%;">CEO Signature</h3>
+    </div>
+        <div class="top">
+            <h2 id="pn">Product Name</h2>
+        </div>
+        <div class="sectop">
+            <h2 id="price">Price</h2>
+        </div>
+        <div class="thirdtop">
+            <h2 id="qty">Qty.</h2>
+        </div>
+        <div class="forthtop">
+            <h2 id="tl">Total</h2>
+        </div>
+        
+    </div>
+    <div class="fifthdiv">
+        <h4>Website hosting (4 Years)</h4>
+        <pre style="margin-top: -2%; border-bottom: 2px solid black;">KPCSW website hosting charges</pre>
+        <p style="margin-top: -60px; margin-left: 45%;">Rs: 14,388</p>
+        <p style="margin-top: -35px; margin-left: 65%;">01</p>
+        <p style="margin-top: -35px; margin-left: 79%;">Rs:38,352</p>
+        <h4 style="margin-top: 10%; border-bottom: 2px solid black;">Service Charges</h4>
+        <p style="margin-top: -40px; margin-left: 45%;">Rs: 15,000</p>
+        <p style="margin-top: -35px; margin-left: 65%;">01</p>
+        <p style="margin-top: -35px; margin-left: 79%;">Rs:15,000</p>
+        <p style="margin-top: 18%; border-top: 2px solid black;">Sub Totals</p>
+        <p style="margin-top: -35px; margin-left: 79%;">Rs:53,352</p>
+        <p style="border-bottom: 2px solid black; padding-bottom: 2px;">Tax Vat</p>
+        <p style="margin-top: -35px; margin-left: 79%;">Rs:148</p>
+        <h3 style="margin-top: 1%;">DRAND TOTAL</h3>
+        <p style="margin-top: -40px; margin-left: 79%;">Rs:148</p>
+        <h3 style="margin-top: 10%; color: rgb(89, 89, 238); border-bottom: 2px solid black;">Thank you for bussiness with us!</h3>
+        <p>Invoice terms & conditions:
+            <ul>
+                <li>Payment Due: Within 5days of the invoice date. Late payments may incur additional fees.</li>
+                <li>Late Fees: 1.5% monthly fee for overdue balances.</li>
+                <li>Must be reported within 9 days of the invoice date.</li>
+                <li>Ownership of deliverables transfers after full payment.</li>
+            </ul>
+        </p>
+
+        <div class="num">
+            <p>+92-329-7707733</p>
+            <p>+92-342-8890064</p>
+        </div>
+        <img class="telimg" src="./images/tel.jpeg" alt="" width="15px" height="15px">
+
+        <div class="weblink">
+            <p>info@onicbyte.com</p>
+            <p>www.onicbyte.com</p>
+        </div>
+    </div>
+</body>
+</html>
