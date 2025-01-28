@@ -1,0 +1,260 @@
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link:hover {
+    border: 2px solid black;
+    color: #ff0606;
+    border-radius: 8px;
+    /* padding: 1px 0.5px 1px 0.5px; */
+    transform: scale(1.1);
+    transition: transform 0.5s ease, box-shadow 0.1s ease;
+}
+
+.decore {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 577.31px;
+    height: 672.58px;
+}
+
+.traveller {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 683.87px;
+    height: 764px;
+}
+
+
+.content {
+    margin: 4%;
+}
+
+@media (max-width: 1068px) {
+    .content {
+        margin-top: 750px;
+        text-align: center;
+    }
+}
+
+.btnfom {
+    background-color: rgb(252, 173, 3);
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+
+.btnfom:hover {
+    background-color: chocolate;
+    transform: scale(1.1);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(144, 238, 144, 0.6);
+}
+
+.btnpd {
+    border: 0px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.btnpd:hover {
+    color: red;
+    transform: scale(1.1);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.category {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.firstcard:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(144, 238, 144, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.secondcard:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(144, 238, 144, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.thirdcard:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(144, 238, 144, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.sideimage{
+    box-shadow: 70px -25px 70px rgba(18, 78, 243, 0.603); /* Right top shadow */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+
+/* ------------------------- */
+.carousel-indicators button {
+    background-color: black !important; /* Change the dot color to black */
+    border: none; 
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: black !important; /* Ensure the active dot is also black */
+}
+
+/* ----------------------------- */
+
+
+.carousel-container {
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+.carousel-inner {
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    position: absolute;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
+    background: #ddd;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(1);
+    
+}
+
+.carousel-control-next{
+    right: 0%;
+}
+
+
+.trip-card {
+    position: absolute;
+    right: 0%;
+    bottom: 12%;
+    left: 40%;
+    width: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+.trip-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.progress {
+    height: 6px;
+    border-radius: 5px;
+}
+.progress-bar {
+    background-color: #9b79f5; /* Light purple */
+}
+.status-text {
+    color: #9b79f5;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.containerforsub{
+    position: relative;
+    text-align: center;
+    background-color: rgb(226, 223, 223);
+    margin: 5%;
+    padding: 70px 60px 100px 60px;
+    border-radius: 140px 10px 10px 10px ;
+}
+
+
+.subbtn{
+    margin-top: 100px;
+    background-color:#ff06069f;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.subbtn:hover{
+    background-color: rgb(238, 51, 18);
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="email"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.sub{
+    align-items: center;
+}
+.emailimg{
+    position: absolute;
+    margin-top: 8.5%;
+    left: 33.5%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.arrow{
+    position: absolute;
+    top: -3%;
+    right: -2%;
+}
+
+.group4{
+    position: absolute;
+    bottom: -8%;
+    right: -4%;
+}
+
+.containerforsub h1{
+    color: darkslateblue;
+}
+.lastrow p{
+    color: darkslateblue;
+    font-weight: bold;
+}
+
